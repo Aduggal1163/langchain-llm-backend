@@ -14,3 +14,6 @@ langchain_text_splitters
 ChromaDb
 langchain_google_genai
 faiss-cpu
+ddgs
+langchain_experimental
+wikipedia
