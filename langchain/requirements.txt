@@ -6,3 +6,11 @@ langchain-google-genai
 langserve
 fastapi
 uvicorn
+sse_starlette
+langchain_community
+bs4
+pypdf
+langchain_text_splitters
+ChromaDb
+langchain_google_genai
+faiss-cpu
