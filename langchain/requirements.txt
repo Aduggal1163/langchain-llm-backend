@@ -17,3 +17,4 @@ faiss-cpu
 ddgs
 langchain_experimental
 wikipedia
+ollama
