@@ -18,3 +18,4 @@ ddgs
 langchain_experimental
 wikipedia
 ollama
+langchain-ollama
