@@ -27,7 +27,7 @@ class Order(Base):
         Enum("pending", "completed", name="order_status"),
         default="pending"
     )
-    user_id=Column(Integer,ForeignKey('users.id'))
+    user_id=Column(Integer,ForeignKey('users.id'),nullable=False)
     
     user=relationship('User',back_populates='orders')
     order_items=relationship('OrderItem',back_populates='order')
